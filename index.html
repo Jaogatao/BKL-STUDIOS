@@ -20,7 +20,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark box-shadow">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid d-flex justify-content-around">
             <img class="rounded-circle p-2 g-col-6 " src="img/Icone.jpeg" alt="Icone BKL STUDIOS"
                 style="width: 100px; height: 100px;">
@@ -94,10 +94,8 @@
                 <div class="col-sm-6 border-left">
                 <h1 class="text-center">Quem Somos</h1>
                     <p class="row container fs-4 text-justify">
-                        "Somos uma equipe inovadora e comprometida com o
-                        sucesso dos nossos colaboradores, oferecemos opções
-                        personalizadas e eficazes para atender às necessidades específicas de cada negócio. Acreditamos em produzir
-                        de forma colaborativa com nossos colaboradores para alcançar ótimos resultados e superar as expectativas.
+                    A BKL STUDIOS nasceu em 2021 com duas grandes paixões o trap e o bregafunk, nós somos uma empresa focada em entregar resultados, em todas suas etapas.
+                    Temos as ferramentas necessárias para transformar sua voz em hit e atender toda sua necessidade de produção musical,vamos juntos torná-las reais ?
                         <h1 class="text-center">Visão</h1>
                         <span class="fs-4">
                         Ser referência na transmissão de conhecimento musical, qualidade de atendimento com paixão e respeito pelas pessoas tendo como obsessão a inquietude pelo fazer hoje melhor do que ontem.
@@ -250,7 +248,7 @@
       
 
 
-    <footer class="footer position-absolute start-50 translate-middle-x bg-dark text-white w-100 p-3 h-auto">
+    <footer class="footer position-absolute start-50 translate-middle-x bg-black text-white w-100 p-3 h-auto">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
@@ -301,10 +299,13 @@
         crossorigin="anonymous"></script>
         
         <script>
-            new Glide('.glide').mount()
+            new Glide('.glide', {
+            type: 'carousel',
+            autoplay: true,
+            autoplay: 3000,
             
-        
-
+        }).mount();
+            
           </script>
 
 </body>
